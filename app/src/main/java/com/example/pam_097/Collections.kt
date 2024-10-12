@@ -30,3 +30,26 @@ fun ContohList() {
 
 
 }
+
+fun ContohSet() {
+    println()
+    println("=== Set ===")
+    //list read-only
+    val readOnlyAbjad = setOf("A", "B", "C")
+    println(readOnlyAbjad)
+
+    val shape: MutableSet<String> = mutableSetOf("circle", "Square", "Triangle")
+    println(shape)
+
+    //menambahkab Data
+    shape.add("Rectangle")
+    println(shape)
+
+    //menghapus
+    shape.remove("Circle")
+    println(shape)
+
+    val shapesLocked: Set<String> = shape
+    println(shapesLocked)
+
+}
