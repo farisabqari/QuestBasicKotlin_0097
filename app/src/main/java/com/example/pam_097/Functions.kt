@@ -11,3 +11,16 @@ fun withParameter(name: String) {
     println("== withParameter ==")
     println("Hello, $name!")
 }
+
+fun withNamedArgument(name: String, age: Int) {
+    println()
+    println("== withNamedArgument ==")
+    println("Hello, $name! You are $age years old.")
+}
+
+// default parameter value
+fun withDefaultParameter(name: String = "Indra", age: Int) {
+    println()
+    println("== withDefaultParameter ==")
+    println("Hello, $name! You are $age years old.")
+}
