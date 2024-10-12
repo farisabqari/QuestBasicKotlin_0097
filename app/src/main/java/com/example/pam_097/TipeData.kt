@@ -10,4 +10,14 @@ fun main() {
 
     val intValue: Int = 30
     println("Int: $intValue")
+
+    val longValue: Long = 40
+    println("Long: $longValue")
+
+    val floatValue: Float = 50.6f
+    println("Float: $floatValue")
+
+
+    val doubleValue: Double = 60.6
+    println("Double: $doubleValue")
 }
